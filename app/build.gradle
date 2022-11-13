@@ -7,7 +7,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.synac.searchbar"
+        applicationId "com.giftthomu.DtreeTestApp"
         minSdk 21
         targetSdk 32
         versionCode 1
@@ -61,4 +61,10 @@ dependencies {
     debugImplementation "androidx.compose.ui:ui-test-manifest:$compose_version"
 
     implementation "androidx.lifecycle:lifecycle-viewmodel-compose:2.5.1"
+    // retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    // GSON
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    //OkHttp
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.10.0'
 }
